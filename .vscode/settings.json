@@ -1,0 +1,9 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "editor.quickSuggestions": {
+
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    }
+}

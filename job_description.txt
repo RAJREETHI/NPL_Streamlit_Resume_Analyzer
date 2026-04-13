@@ -1,0 +1,18 @@
+
+6+ years of enterprise technical leadership in software architecture and development, supporting service and event based ecosystems
+Some experience in Python
+Experience mentoring and providing technical leadership to more junior developers.
+Experience working with SQL and NoSQL based data stores
+Experience improving quality through thoughtful code reviews, appropriate testing, proper rollout, monitoring, and proactive changes
+Experience working on distributed applications that are deployed to and interact with cloud-based services 
+
+Preferred Experience
+
+In addition to Python, experience with languages like Javascript, Typescript, Java
+Experience with Flask and SqlAlchemy ORM
+Experience in application containerization tools (Docker, EC2)
+Experience developing prompts, and prompt frameworks to successfully leverage generative AI
+Experience working with financial services applications
+Experience with Cybersecurity best practices
+
+

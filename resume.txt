@@ -1,0 +1,70 @@
+REETHI RAJ KARIPPALLY
+Senior Software Engineer | Full‑Stack Developer | AWS Serverless Specialist
+Canton, MI • +1 734‑788‑3517 • rajreethi123@gmail.com
+LinkedIn: www.linkedin.com/in/reethi-raj-karippally/
+PROFESSIONAL SUMMARY
+Senior Software Engineer with 7+ years of experience designing and delivering scalable, cloud‑native, and full‑stack applications using AWS Serverless, React, Node.js, and modern web technologies. Strong expertise in REST API development, cloud infrastructure, LMS integrations (SABA), and enterprise‑grade application performance optimization. Adept at solving complex problems, collaborating with cross‑functional teams, and delivering high‑quality solutions across media, automotive, consulting, and enterprise environments.
+CORE SKILLS
+Programming Languages: Nodejs,C, C++, Java, JavaScript (ES6), PHP7/5, Python
+Cloud & DevOps: AWS (Lambda, API Gateway, DynamoDB, S3, EC2, CloudFormation, CloudWatch, IAM), Serverless Architecture, Docker
+Frontend: React.js, Redux, JavaScript (ES6), HTML5, CSS3/SASS, Bootstrap, Phaser.js
+Backend: Node.js, PHP7/5, Java, REST APIs, WordPress Plugin Development, Drupal Module Development
+Databases: MongoDB, Mongo Atlas, SQL, MySQL
+Tools: Git, GitHub, Bitbucket, SVN, Eclipse, VS Code, SharePoint Online, Dynatrace, Autosys
+Other: LMS (SABA), SCORM, XML, JSON, jQuery
+PROFESSIONAL EXPERIENCE
+Media News Group — Senior Software Engineer
+June 2022 – Jan 2025 | Remote/USA
+● Designed, developed, and deployed cloud‑native applications using AWS Lambda, API Gateway, DynamoDB, EC2, S3, and CloudFormation.
+● Built and maintained serverless architectures, improving scalability and reducing operational overhead.
+● Developed RESTful APIs and automated infrastructure provisioning using CloudFormation.
+● Monitored and optimized application performance using CloudWatch and OpenSearch.
+● Built responsive, high‑performance web applications using React.js, improving UI performance and state management.
+● Developed custom WordPress plugins, integrated third‑party APIs, and optimized site performance through data cleanup and debugging.
+Environment: AWS (Lambda, API Gateway, DynamoDB, EC2, S3, CloudFormation, CloudWatch), Node.js, React.js, Docker, WordPress
+Accenture — Web Developer
+Sep 2021 – Jan 2022 | Remote
+● Developed an interactive, gamified airport infrastructure simulation using Phaser.js.
+● Built React applications for uploading and managing data in SharePoint lists.
+● Performed debugging, troubleshooting, and iterative improvements across development phases.
+Environment: Phaser.js, React.js, JavaScript, HTML5, CSS, SharePoint Online
+Ford Motor Company, Michigan — System Analyst / UI Developer
+Jun 2019 – Aug 2020
+● Developed micro‑applications using JavaScript, HTML5, CSS3, and REST APIs.
+● Built applications to consume JSON/XML from RESTful services.
+● Improved page performance and resolved cross‑browser compatibility issues.
+● Monitored application performance using Dynatrace.
+● Integrated training tools with SABA LMS, including course feed scheduling via Autosys.
+● Supported SharePoint migration to O365 and maintained SharePoint sites.
+● Performed SQL‑based data extracts and analysis.
+Environment: JavaScript, HTML5, CSS3 (SASS), jQuery, Node.js, REST API, SQL, MS Access, SABA, SCORM, XML, Autosys, Dynatrace, SharePoint
+Reliable Software, Michigan — Web Developer
+Oct 2018 – May 2019
+● Built multi‑view React applications for employees, trainers, and admins.
+● Collaborated with business teams to refine requirements and propose solutions.
+● Developed full‑stack applications using React + Node.js + MongoDB.
+● Integrated OpenWeather and Flickr APIs for dynamic content.
+● Built a React‑Redux To‑Do application.
+Environment: React.js, Redux, JavaScript (ES6), Bootstrap, Node.js, MongoDB, Webpack
+EARLY EXPERIENCE
+Detailz Technology, India — Web Developer
+Jan 2016 – Feb 2017
+● Developed websites using Drupal, including reusable components and custom modules.
+● Built dynamic, responsive UI using Bootstrap, SASS, and JavaScript.
+● Created admin panels and converted static pages to dynamic PHP‑based pages.
+● Developed single‑page applications and interactive web features.
+Environment: HTML5, PHP7, CSS3, Bootstrap, JavaScript, jQuery, Git, Drupal
+Kites Software, India — Associate
+Jul 2012 – Mar 2013
+● Built a secure data backup system for portable devices using AES encryption.
+● Developed Java‑based applications with MySQL and JDBC.
+Environment: Java, MySQL, JDBC, Eclipse
+PROJECTS (Academic)
+Finding Tight Bounds for Epsilon Net — IIT Chennai (2015)
+Research in computational geometry focusing on ε‑nets for disks, half‑spaces, and convex sets.
+EDUCATION
+● Master’s Degree - Computer Science & System Engineering / MG University, India - 2015
+● Bachelor’s Degree - Computer Science & Engineering / Anna University, India - 2012
+TRAINING
+● Industrial Training at Indian Institute of Science (IISc), Bangalore — Game Theory
+● In‑plant Training at Accel Frontline Global Services, Chennai 
