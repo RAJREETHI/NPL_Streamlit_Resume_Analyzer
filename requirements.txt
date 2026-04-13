@@ -1,6 +1,5 @@
 streamlit
 spacy
-sklearn
 numpy
 pandas
 python-docx
