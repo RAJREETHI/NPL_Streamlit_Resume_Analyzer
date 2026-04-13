@@ -1,5 +1,17 @@
+import spacy
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 from analyzer import preprocesstext, calculate_similarity, find_missing_keywords, find_filtered_keywords, extract_text
+
+import spacy
+import subprocess
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
 
 st.title("🚀 AI Resume Analyser")
 st.markdown("Analyze how well your resume matches a job description using AI.")
