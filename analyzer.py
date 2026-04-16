@@ -56,21 +56,46 @@ def find_missing_keywords(resume, jd):
      
     return missing_keywords
         
-# Example grouping logic (basic)
-def find_filtered_keywords(missing_keywords):
-    tech_skills = []
-    soft_skills = []
-    other = []
-    t_skills = ["python", "aws", "react", "sql", "docker","sqlalchemy"] 
-    s_skills = ["communication", "leadership", "teamwork"]
-    for word in missing_keywords:
-        if any(t_skill in word.lower() for t_skill in t_skills):
-            tech_skills.append(word)
-        elif any(s_skill in word.lower() for s_skill in s_skills):
-            soft_skills.append(word)
-        else:
-            other.append(word)
-    return tech_skills, soft_skills, other
+
+
+
+TECH_MASTER = {
+    "python", "java", "javascript", "react", "node.js", "aws",
+    "docker", "kubernetes", "sql", "mysql", "postgresql",
+    "mongodb", "git", "html", "css", "typescript",
+    "flask", "django", "streamlit", "rest api"
+}
+
+def load_skills(filename):
+    with open(filename, "r", encoding="utf-8") as file:
+        return {line.strip().lower() for line in file if line.strip()}
+
+TECH_MASTER = load_skills("tech_skills.txt")
+SOFT_MASTER = load_skills("soft_skills.txt")
+
+
+def extract_skills_from_jb(jd_text):
+    jd_doc = nlp(jd_text)
+    jd_tokens = set(token.lemma_.lower() for token in jd_doc if token.is_alpha)
+    jd_tech_skills = jd_tokens.intersection(TECH_MASTER)
+    jd_soft_skills = jd_tokens.intersection(SOFT_MASTER)
+    return jd_tech_skills, jd_soft_skills
+
+
+
+def compare_resume(resume_text, jd_description):
+    resume = resume_text.lower()
+    jd_text,jd_soft = extract_skills_from_jb(jd_description)
+    
+    matched_tech = [s  for s in jd_text if s in resume]
+    missing_tech = [s for s in jd_text if s not in resume]
+    
+    matched_soft = [s for s in jd_soft if s in resume]
+    missing_soft = [s for s in jd_soft if s not in resume]
+    
+    return matched_tech, missing_tech, matched_soft, missing_soft
+ 
+
 
     
         

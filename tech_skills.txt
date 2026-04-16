@@ -1,0 +1,192 @@
+python
+java
+javascript
+react
+node.js
+aws
+docker
+kubernetes
+sql
+mysql
+postgresql
+mongodb
+git
+html
+css
+typescript
+flask
+django
+streamlit
+rest api
+terraform
+jenkins
+linux
+redis
+graphql
+swift
+python
+java 
+javascript
+typescript
+c
+c++
+c#
+go
+ruby
+php
+swift
+kotlin
+rust
+scalar
+matlab
+perl
+bash
+powershell
+dart
+html
+css
+sass
+less
+bootstrap
+tailwind css
+react
+angular
+vue.js
+next.js
+nuxt.js
+jquery
+redux
+webpack
+vite
+material ui
+chakra ui
+node.js
+express.js
+django
+flask
+fastapi
+spring boot
+hibernate
+.net
+asp.net
+laravel
+symfony
+rails
+sql
+mysql
+postgresql
+sqlite
+oracle
+sql 
+server
+mongodb
+redis
+cassandra
+dynamodb
+firebase
+elasticsearch
+neo4j
+mariadb
+couchdb
+aws
+azure
+google cloud
+gcp
+ec2
+s3
+lambda
+rds
+cloudformation
+iam
+route53
+cloudwatch
+docker
+kubernetes
+terraform
+ansible
+jenkins
+github actions
+gitlab ci
+circleci
+travis ci
+helm
+prometheus
+grafana
+nginx
+apache
+git
+github
+bitbucket
+svn
+rest api
+graphql
+soap
+microservices
+serverless
+linux
+unix
+windows server
+ubuntu
+redhat
+pandas
+numpy
+scikit-learn
+tensorflow
+keras
+pytorch
+opencv
+xgboost
+nltk
+spacy
+hadoop
+spark
+hive
+airflow
+kafka
+databricks
+tableau
+power bi
+looker
+excel
+vba
+selenium
+cypress
+playwright
+pytest
+junit
+testng
+postman
+soapui
+jira
+confluence
+trello
+slack
+notion
+figma
+adobe xd
+photoshop
+illustrator
+cybersecurity
+penetration testing
+wireshark
+metasploit
+splunk
+siem
+firewalls
+blockchain
+solidity
+web3
+ethereum
+machine learning
+deep learning
+nlp
+computer vision
+etl
+data warehousing
+snowflake
+bigquery
+streamlit
+gradio
+langchain
+openai api
+prompt engineering

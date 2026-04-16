@@ -2,7 +2,7 @@ import spacy
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
-from analyzer import preprocesstext, calculate_similarity, find_missing_keywords, find_filtered_keywords, extract_text
+from analyzer import preprocesstext, calculate_similarity, extract_text, compare_resume
 
 import spacy
 import subprocess
@@ -42,7 +42,9 @@ if resume_file and job_description_file:
     else:
         resume_clean = preprocesstext(resume_text)
         jd_clean = preprocesstext(jd_text)
-
+        
+        matched_tech, missing_tech, matched_soft, missing_soft = compare_resume(resume_clean, jd_clean)
+        
         score = calculate_similarity(resume_clean, jd_clean)
         st.subheader("📊 Match Score")
         st.progress(score / 100)
@@ -54,24 +56,18 @@ if resume_file and job_description_file:
            st.warning("Good match, but can improve ⚡")
         else:
            st.error("Low match — needs improvement ❗")
+            
 
-        # find the missing keywords in the resume
-        missing_keywords = find_missing_keywords(resume_clean, jd_clean)
         
-        #filter the missing keywords based on categories (e.g., skills, experience, education)
-        
-        filltered_keywords = find_filtered_keywords(missing_keywords)
-        tech_skills, soft_skills, other = filltered_keywords
-        
-        if(tech_skills):
+        if(missing_tech):
             st.subheader("Missing Technical Skills:")
-            for skill in tech_skills:
-                st.write(f"- {skill}")
+            for skill in missing_tech:
+                st.write(f"- {skill.upper()}")
 
-        if(soft_skills):
+        if(missing_soft):
             st.subheader("Missing Soft Skills:")
-            for skill in soft_skills:
-                st.write(f"- {skill}")
+            for skill in missing_soft:
+                st.write(f"- {skill.upper()}")
         
             if resume_file and job_description_file and score is not None:
              tab1, tab2, tab3 = st.tabs(["📊 Results", "📄 Resume", "📑 JD"])
