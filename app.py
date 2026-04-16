@@ -2,7 +2,7 @@ import spacy
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
-from analyzer import preprocesstext, calculate_similarity, extract_text, compare_resume
+from analyzer import preprocesstext, calculate_similarity, extract_text, check_resume
 
 import spacy
 import subprocess
@@ -43,7 +43,7 @@ if resume_file and job_description_file:
         resume_clean = preprocesstext(resume_text)
         jd_clean = preprocesstext(jd_text)
         
-        matched_tech, missing_tech, matched_soft, missing_soft = compare_resume(resume_clean, jd_clean)
+        matched_tech, missing_tech, matched_soft, missing_soft = check_resume(resume_clean, jd_clean)
         
         score = calculate_similarity(resume_clean, jd_clean)
         st.subheader("📊 Match Score")

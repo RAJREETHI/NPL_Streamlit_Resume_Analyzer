@@ -83,7 +83,7 @@ def extract_skills_from_jb(jd_text):
 
 
 
-def compare_resume(resume_text, jd_description):
+def check_resume(resume_text, jd_description):
     resume = resume_text.lower()
     jd_text,jd_soft = extract_skills_from_jb(jd_description)
     
